@@ -1,70 +1,91 @@
-# Getting Started with Create React App
+# Dynamic Dashboard – Frontend Assignment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a dynamic dashboard built as part of a Frontend Trainee assignment.
 
-## Available Scripts
+The dashboard allows users to manage widgets under different categories.  
+All data is handled locally and the UI updates dynamically without page reloads.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🚀 Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Dashboard built dynamically using JSON data
+- Multiple categories (e.g. CSPM Executive Dashboard, CWPP Dashboard)
+- Add new widgets to a category
+- Remove widgets using a close (✕) icon
+- Search across all widgets
+- Local state management using React Context API
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🛠 Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- React.js
+- Context API (State Management)
+- JavaScript (ES6)
+- CSS
+- Create React App
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📁 Project Structure
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+src/
+├── components/
+│ ├── Dashboard.jsx
+│ ├── Category.jsx
+│ ├── Widget.jsx
+│ ├── AddWidgetModal.jsx
+│ └── SearchBar.jsx
+├── context/
+│ └── DashboardContext.js
+├── data/
+│ └── dashboardData.json
+├── styles.css
+├── App.js
+└── index.js
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+yaml
+Copy code
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## ▶️ How to Run Locally
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Install Node.js
+2. Clone the repository
+3. Open terminal inside the project folder
+4. Run the following commands:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+npm install
+npm start
+The application will run on:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+arduino
+Copy code
+http://localhost:3000
+🌐 Deployment
+The project is deployed using Netlify.
 
-## Learn More
+👩‍💻 Author
+Aanya Shukla
+Frontend Developer (Fresher)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+yaml
+Copy code
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## 4️⃣ SAVE FILE
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## 5️⃣ PUSH README UPDATE TO GITHUB
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+In **PowerShell** (inside `dashboard-widgets`):
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```powershell
+git add README.md
+git commit -m "Updated README with project details"
+git push

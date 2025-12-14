@@ -1,0 +1,31 @@
+{
+  "categories": [
+    {
+      "id": "cspm",
+      "name": "CSPM Executive Dashboard",
+      "widgets": [
+        {
+          "id": "w1",
+          "title": "Cloud Security",
+          "text": "Random cloud security data"
+        },
+        {
+          "id": "w2",
+          "title": "Risk Assessment",
+          "text": "Risk metrics overview"
+        }
+      ]
+    },
+    {
+      "id": "cwpp",
+      "name": "CWPP Dashboard",
+      "widgets": [
+        {
+          "id": "w3",
+          "title": "Workload Status",
+          "text": "Workload health info"
+        }
+      ]
+    }
+  ]
+}
